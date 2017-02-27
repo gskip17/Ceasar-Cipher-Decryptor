@@ -118,6 +118,7 @@ var ceasar = function(cipher){
   cipher = cipher.toLowerCase();
   console.log(decrypt(cipher));
   var length = cipher.length;
+  
   console.log("Original Encryption: " + cipher + "\n");
 
   for(var i = 0; i < 25; i++){
